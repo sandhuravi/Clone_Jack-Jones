@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Italian Plate No2 Expanded" sans-serif;
+  position: relative;
+}
+
+.discount p {
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 2;
+}
+
+.header .top-discount-tag a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 8px 0px;
+  text-align: center;
+}
+.header .top-discount-tag {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: #002855;
+  height: 34px;
+  text-align: center;
+  justify-content: center;
+  gap: 2px;
+}
+.header .jack-jones-img {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  flex-direction: row;
+  z-index: 0;
+  cursor: pointer;
+}
+.material-symbols-outlined-person {
+  padding: 2rem;
+  margin: 1rem;
+}
+.header .navbar {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .top-discount-tag .sale {
+  color: rgb(234, 70, 51);
+}
+.header .navbar .search-right {
+  margin-top: 10px;
+  text-align: right;
+  display: flex;
+  text-align: right;
+  float: right;
+  margin-right: 10px;
+}
+.header .navbar .search-right .search {
+  padding: 10px;
+  position: relative;
+  width: 18rem;
+  margin-right: 2rem;
+}
+.search-text {
+  color: rgb(153, 153, 153);
+  padding: 0.8rem;
+  border: 1px solid #d9d9d9;
+  width: 16rem;
+  font-size: 13px;
+}
+#block{
+  margin-left: 6px;
+  padding-right: 2px;
+}
+
+.log {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-right: 20px;
+  font-size: 30px;
+  margin-top: -1rem;
+}
+#logo-1 {
+  font-size: 1.8rem;
+}
+.log .fa-user:hover {
+  color: rgb(162, 210, 255);
+}
+
+.log .fa-heart:hover {
+  color: rgb(247, 37, 133);
+}
+
+.log .fa-heart:hover {
+  color: rgb(247, 37, 133);
+}
+
+.log .fa-bag-shopping:hover {
+  color: rgb(77, 25, 77);
+}
+.material-symbols-outlined {
+  color: rgb(188, 188, 188);
+  top: 1.2rem;
+  right: 0.5rem;
+  position: absolute;
+  cursor: pointer;
+}
+
+.person-fav-bag div {
+  margin: 2rem;
+  padding: 1rem;
+}
+.header .tabs {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+}
+.header .tabs ul {
+  float: right;
+  text-align: center;
+}
+.header .tabs ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.header .tabs ul li a {
+  text-decoration: none;
+  color: #002855;
+  font-size: 12px;
+  font-weight: 800;
+}
+.fa-facebook-f:hover {
+  color: rgb(8, 102, 255);
+  cursor: pointer;
+}
+.fa-twitter:hover {
+  color: rgb(29, 161, 242);
+  cursor: pointer;
+}
+.fa-instagram:hover {
+  color: rgb(247, 120, 67);
+  cursor: pointer;
+}
+.fa-youtube:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.fa-brands {
+  color: #ffffff;
+}
+
+#premium {
+  color: black;
+  font-weight: bold;
+}
+
+#sale {
+  color: red;
+  font-weight: bold;
+}
+#kids {
+  color: blue;
+}
+.main-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.home-section {
+  width: 20%;
+  height: 100%;
+  position: sticky;
+  top: 10;
+}
+.home {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-left: 1rem;
+  font-size: 11px;
+  margin-top: 1rem;
+  font-family: sans-serif;
+}
+.home i {
+  font-size: 10px;
+}
+.categories-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.categories-card p,
+i {
+  font-family: sans-serif;
+  color: #002855;
+
+  font-size: 15px;
+}
+
+.categories-card:hover {
+  font-family: sans-serif;
+  color: #002855;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.categories-container {
+  margin-top: 1rem;
+  position: fixed;
+  width: 250px;
+}
+.product-section {
+  width: 77%;
+  font-family: sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-color: #faf9f8;
+}
+.card-1 {
+  display: flex;
+  gap: 1rem;
+  font-family: sans-serif;
+}
+.card-1 span {
+  color: rgb(206, 201, 201);
+}
+.card-2 {
+  display: flex;
+  justify-content: end;
+}
+.card-2 p {
+  margin-top: 5px;
+  font-size: 13px;
+}
+.card-cont {
+  display: flex;
+  gap: 4rem;
+}
+.card-2 p {
+  margin-right: 1rem;
+}
+.select-item {
+  border-radius: 2px;
+  padding: 2px 40px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(203, 199, 199);
+}
+.select-item:hover {
+  border: 1px solid lightskyblue;
+}
+option {
+  padding: 5px;
+}
+
+.item-card {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.clothes-img {
+  width: 30%;
+  height: auto;
+}
+.img {
+  width: 100%;
+}
+
+.clothes-para {
+  text-align: center;
+  margin-top: 5px;
+}
+.div-para {
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+
+  margin-top: 5px;
+}
+.para-price1 {
+  color: #002855;
+  font-weight: bold;
+}
+.para-price2 {
+  color: gray;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+.para-price3 {
+  color: red;
+  font-weight: bold;
+}
+.cards-clothes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-left: 18rem;
+  width: 82%;
+}
+.chatbot {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 65px;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  /* -webkit-box-shadow: -11px 12px 139px -27px rgba(0,0,0,0.76);
+  -moz-box-shadow: -11px 12px 139px -27px rgba(0,0,0,0.76); */
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #002855;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+/* ******* Navbar ******* */
+.discount {
+  width: 100%;
+
+  background-color: #002855;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.navbar {
+  width: 100%;
+
+  padding: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search {
+  display: flex;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.search input {
+  border: none;
+  padding: 10px 20px;
+}
+.search i {
+  font-size: 20px;
+  margin-top: 6px;
+  color: #8d8d8d;
+}
+.search-section {
+  display: flex;
+}
+#icon-right {
+  font-size: 26px;
+}
+#icon-user {
+  color: black;
+}
+.common-div {
+  background-color: #faf9f8;
+  margin-top: 150px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+}
+
+.img:hover {
+  width: 99%;
+  border: 1px solid rgb(224, 214, 214);
+  border-radius: 1px;
+}
+
+/* ***** FOOOTER ****** */
+.footer {
+  background-color: rgb(0, 40, 85);
+  width: 100%;
+  height: auto;
+}
+.footer hr {
+  margin-top: 1rem;
+}
+
+.heading-footer {
+  margin-left: 1rem;
+}
+
+.heading-footer h2 {
+  font-size: 16px;
+  color: white;
+  padding-left: 1rem;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+.para a {
+  color: blue;
+  text-decoration: none;
+}
+
+.para {
+  color: white;
+  font-size: 13px;
+  overflow-y: scroll;
+  width: 100vw;
+  height: 20vh;
+  padding: 2rem;
+}
+
+.para ol {
+  padding: 1rem;
+}
+
+.para ol li {
+  padding: 0.2rem;
+}
+
+.para h2 {
+  padding-bottom: 1rem;
+}
+
+.para p {
+  margin-bottom: 1rem;
+}
+.footer .list {
+  margin-top: 0.8rem;
+  height: auto;
+  width: 100%;
+  background-color: rgb(0, 40, 85);
+  display: flex;
+}
+
+.footer .list .social-icon-bar {
+  width: 20%;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  background-color: rgb(0, 40, 85);
+  padding: 0.5rem;
+  height: 8rem;
+
+  display: flex;
+  flex-direction: row;
+}
+.footer .list .social-icon-bar div {
+  width: 5%;
+  height: auto;
+  margin: 1rem;
+}
+.footer .list .social-icon-bar div p {
+  line-height: 40px;
+  color: #fff;
+  margin: 0 4rem;
+}
+.fa-brands fa-facebook-f fa-fade {
+  cursor: pointer;
+}
+
+.list-items {
+  display: flex;
+  background-color: rgb(0, 40, 85);
+}
+
+.list-items .items {
+  width: 25%;
+  height: auto;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.list-items .items p {
+  width: 10rem;
+  padding: 5%;
+  font-size: 11px;
+  margin: 5%;
+  color: #fff;
+}
+
+/* ******** MEDIA QUERY *********  */
+
+

@@ -1,0 +1,618 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Italian Plate No2 Expanded", sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 100;
+}
+
+.header .top-discount-tag a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 8px 0px;
+  text-align: center;
+}
+.header .top-discount-tag {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: #002855;
+  height: 34px;
+  text-align: center;
+  justify-content: center;
+  gap: 2px;
+}
+.header .jack-jones-img {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  flex-direction: row;
+}
+.header .navbar {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navbar .search-right {
+  margin-top: 10px;
+  text-align: right;
+  display: flex;
+  text-align: right;
+  float: right;
+  margin-right: 10px;
+}
+.header .navbar .search-right .search {
+  padding: 10px;
+  position: relative;
+  width: 16rem;
+  margin-right: 2rem;
+}
+.search-text {
+  padding: 0.8rem;
+  border: 1px solid #d9d9d9;
+  width: 16rem;
+}
+.header .navbar .search-right .search i {
+  top: 1.5rem;
+  right: 1rem;
+  position: absolute;
+  cursor: pointer;
+}
+.header .tabs {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+}
+.header .tabs ul {
+  float: right;
+  text-align: center;
+}
+.header .tabs ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.header .tabs ul li a {
+  text-decoration: none;
+  color: #002855;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.chatbot{
+  width: 60px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 999;
+  right: 5%;
+  bottom: 10%;
+}
+.chatbot img{
+  border-radius: 50%;
+  width: 60px;
+}
+/* 
+.header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 5px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+.rightside{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+    
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.nav3 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    padding: 6px;
+}
+
+.nav3 a{
+    text-decoration: none;
+
+} */
+
+.section1 {
+  width: 100%;
+  height: auto;
+}
+
+.crousel {
+  height: 33vw;
+  width: 97%;
+  padding: 10px;
+  /* border: 2px solid black; */
+  position: relative;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 400%;
+  height: 100%;
+  transition: all 0.5s;
+  /* transform: translate(-25%); */
+}
+
+.slider section {
+  flex-basis: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+
+.controls .arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  color: black;
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.sec1 {
+  background-image: url("https://images.bestsellerclothing.in/live/image/catalog/brandstore/bestseller/banners/jjjr_IntoTheWild_web_2122023.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sec2 {
+  background-image: url("https://images.bestsellerclothing.in/live/image/catalog/brandstore/bestseller/banners/jjjr_Pokemon_web_16112023.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sec3 {
+  background-image: url("https://images.bestsellerclothing.in/live/image/catalog/brandstore/bestseller/banners/jjjr_IntoTheWild_web_2122023.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec4 {
+  background-image: url("https://images.bestsellerclothing.in/live/image/catalog/brandstore/bestseller/banners/jjjr_Motor_Ads_web_10102023.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Section 2 Whats hot */
+
+.section2 {
+  width: 90;
+  /* border: 2px solid red; */
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid blue; */
+}
+
+.collection1 img {
+  width: 25vw;
+}
+
+.collection2 img {
+  width: 25vw;
+}
+
+.collection3 img {
+  width: 25vw;
+}
+
+.toptag {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.midtag {
+  font-size: 15px;
+  font-weight: 200;
+  margin: 5px 0;
+  /* text-wrap: wrap; */
+
+  padding: 0 5px 0 0;
+}
+
+.shop {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+/*  section 3 shop by age */
+
+.section3 {
+  display: flex;
+  margin: 20px 20px;
+  margin-left: 20vh;
+  align-items: center;
+}
+
+.section3 h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.section3 button {
+  font-size: 20px;
+  width: 190px;
+  margin: 0 20px;
+  border-radius: 10px;
+  height: 50px;
+  color: #002855;
+  background-color: #ebebeb;
+  font-weight: 400;
+}
+
+/* section 4 */
+
+.section4 {
+  /* width: 95vw; */
+  /* padding: 0 10px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 60px;
+}
+
+.section4 img {
+  width: 45%;
+  margin: 20px;
+}
+
+/* section 5 */
+
+.section5 {
+  width: 90%;
+  height: auto;
+  position: relative;
+}
+
+.section5 h1 {
+  font-size: 26px;
+  font-weight: 500;
+  display: block;
+  color:rgb(0,40,85);
+  margin: 10px 7vh;
+}
+
+.crousel2 {
+  position: relative;
+  width: 90%;
+}
+
+.slider2 {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  transition: all 0.5s;
+  position: relative;
+  overflow-x: scroll;
+  margin: 0 auto;
+  /* transform: translate(-25%); */
+}
+
+.slider2 section {
+  margin: 0 22px;
+}
+
+.iframee {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 10vh;
+  background-color: #002855;
+}
+
+.iframee iframe {
+  width: 66.5%;
+  height: 80%;
+  margin: 4% 15%;
+  background-color: #002855;
+}
+
+/* .footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #002855;
+  margin-top: 3%;
+  height: 50vh;
+  align-items: center;
+} */
+
+.socials {
+  display: flex;
+  gap: 50px;
+  /* margin-top: px; */
+  color: white;
+}
+
+.socials i {
+  font-size: 20px;
+}
+
+.about a,
+li {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 12px;
+}
+
+/* new work........... */
+
+.section2 h1{
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(0,40,85);
+  margin-left: 46px;
+  margin-bottom: 15px;
+}
+
+.section2{
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgb(250,249,248);
+}
+
+.section2 h2, a{
+  color: rgb(0,40,85);
+}
+
+.section3 {
+  margin-top: 40px;
+  color: #002855;
+}
+
+.section5 h1{
+  margin-left: 100px;
+  margin-bottom: 20px;
+  color:rgb(0,40,85);
+
+}
+
+.section5, .section1, .section2, .section3, .section4:hover{
+  cursor: pointer;
+}
+.section5 h2, a{
+  color: rgb(0,40,85);
+}
+
+.left {
+  font-size: 50px;
+  color: antiquewhite;
+}
+
+.fa-angles-left{
+  color: antiquewhite;
+}
+
+.fa-angles-right{
+  font-size: 50px;
+  color: antiquewhite;
+}
+
+.fa-angles-left:hover{
+  color: rgb(231,29,54);
+}
+
+.fa-angles-right:hover{
+  color: rgb(231,29,54);
+}
+
+/* logos ..................................*/
+
+.log{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+
+/* effects on image section 2................ */
+
+.collection2{
+  transition: ease-in-out;
+  /* border: 1px solid rgb(255,194,209); */
+  overflow: hidden;
+  /* box-shadow: 10px 10px 10px 10px rgb(255,194,209); */
+}
+
+.collection2:hover img{
+  transform: scale(1.2);
+}
+
+.collection1{
+  transition: ease-in-out;
+  /* border: 1px solid ; */
+  overflow: hidden;
+  /* box-shadow: 10px 10px 10px 10px rgb(207,232,239); */
+}
+
+.collection1:hover img{
+  transform: scale(1.2);
+}
+
+.collection3{
+  transition: ease-in-out;
+  /* border: 1px solid ; */
+  overflow: hidden;
+  /* box-shadow: 10px 10px 10px 10px rgb(228,230,231); */
+}
+
+.collection3:hover img{
+  transform: scale(1.2);
+}
+
+.section4{
+  width: 80%;
+  margin-left: 90px;
+  /* box-shadow: 20px 20px 20px 20px rgb(202,240,248); */
+}
+
+/* slider................... */
+
+.slider2 section{
+  margin-left: 80px;
+  /* box-shadow: 20px 20px 20px 20px rgb(239,239,239); */
+}
+
+
+/* making site responsive talet */
+
+@media screen and (max-width:768px){
+.collection2{
+    margin-right: 70px;
+  }
+
+}
+
+/* making site responsive mobile 425px */
+
+@media screen and (max-width:425px){
+  body{
+    width: 145vw;
+  }
+
+  .collection1 h2, a, h6 {
+    font-size: smaller;
+  }
+
+  .collection2 h2, a, h6 {
+    font-size: smaller;
+  }
+
+  .collection3 h2, a, h6 {
+    font-size: smaller;
+  }
+
+  .section3 h1{
+    font-size: small;
+    font-weight: bolder;
+  }
+
+  .section3 button{
+    width: 100px;
+    font-size: 16px;
+    height: 50px;
+  }
+
+  .section4{
+    padding: 0;
+    margin:0 auto;
+  }
+
+  .section5{
+    width: 100%;
+  }
+
+  .slider2 img{
+    width: 150px;
+    margin-right: 10px;
+  }
+  .iframee{
+    width: 100%;
+  }
+
+  .section4 img{
+    width: 150px;
+  }
+
+  .crousel{
+    width:420px;
+  }
+  }
+  
+  /* making site responsive mobile 375px */
+
+  @media screen and (max-width:375px){
+    body{
+      width: 163%;
+
+    }
+  }
+
+  /* making site responsive mobile 320px */
+
+  @media screen and (max-width:320px){
+    body{
+      width: 192%;
+
+    }
+  }
